@@ -625,6 +625,13 @@
 			color: inherit;
 		}
 
+		.purpleLine
+		{
+			height:20px;
+			width:100%;
+			color:purple;
+		}
+
 /* Main */
 
 	.no-sidebar #main .major, .left-sidebar #main .major, .right-sidebar #main .major {
