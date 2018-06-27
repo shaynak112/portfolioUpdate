@@ -12,6 +12,7 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/enlargeImg.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -94,19 +95,20 @@
 			<div class="wrapper style2">
 
 				<section id='about'>
-									<header class="major">
+									<header class="major" style='margin-left:25%;margin-right:25%;'>
 										<h2>About Shayna</h2>
 										<span class="byline">Hi! My name is Shayna and I develop web applications.</span>
-										<p>My a`rea of expertise is the architecture and development of web application client and server sides to create dynamic web experiences. I am also skilled with HTML5 / CSS3.</p>
+										<p>My area of expertise is the architecture and development of web application client and server sides to create dynamic web experiences. I am also skilled with HTML5 / CSS3.</p>
 										<p>Browse my projects for an example of some sample dynamic web applications, including dynamic API applications.</p>
 										<h3>Technical Skills</h3>
 										<p>Fluent in PHP 7.0, Python 3, HTML5 / CSS3 (including mobile friendly development), JavaScript (including jQuery, AngularJS, and nodeJS frameworks), XML, MySQL, Oracle SQL, MSSQL, and Sqlite3.</p>
 										<p>In addition, I have previous experience in C, C++, C#, Java, Turing, and Visual Basic. I have experience working with: the following frameworks: Bootstrap, Magento, Laravel, Materialize, Flask; version control systems - Git and Subversion, and many more. I am knowledgeable in both Windows and Linux environments for development.</p>
 									</header>
-								</section>
-					</div>
 				</section>
 			</div>
+<div class='purpleLine'>
+</div>
+
 
 		<!-- Main -->
 			<div id="main" class="wrapper style2">
@@ -126,11 +128,11 @@
 											<h3>Gaia Toronto</h3>
 											<div><a href='http://www.gaia-toronto.com' TARGET='_BLANK'>Link to Gaia Toronto Coming Soon</a></div>
 											<div>Website for a local upcoming event venue.</div>
-											<div>Tecnology Used: PHP, MySWL, JavaScript, API, HTML, CSS, social media</div>
+											<div>Technology Used: PHP, MySQL, JavaScript, APIs, HTML, CSS, social media</div>
 											<div>Admin can update the bookings, rentals, schedule, and general text on the public page.</div>
 											<div>Employees can log in to view their schedule, pay, submit emails, etc.</div>
 											<div>Clients interested in renting the venue can book available slots.</div>
-											<div>Public side features gallery, upcoming events, job postings, contact, and information about the venue.
+											<div>Public side features gallery, upcoming events, job postings, contact, and information about the venue.</div>
 											<div>
 												<img src='images/gaia/wellness.PNG' style='width:30%;' class='projectImg'>
 												<img src='images/gaia/employeesView.PNG' style='width:30%;' class='projectImg'>
@@ -255,7 +257,7 @@
 										<li class='oneProject'>
 											<span></span>
 											<h3>Projects In Progress</h3>
-											<div>website for customers to purchase photography and prints; including payment system and user interactions; based in PHP.</div>
+											<div>Website for customers to purchase photography and prints; including payment system and user interactions; based in PHP.</div>
 											<div>Portfolio for client with store and payment system; based in PHP.</div>
 											<div>Game for music class based on music notes where the teacher is able to save specific games and the music notes are randomized; based in PHP.</div>
 										</li>
@@ -264,6 +266,9 @@
 								</section>
 							</div>
 
+
+<div class='purpleLine'>
+</div>
 
 							<div class="wrapper style2">
 				<section class="container" >
@@ -344,55 +349,44 @@
 							</div>
 						</div>
 
+						<div class='purpleLine'>
+</div>
 
 
-			<div style='margin-left:15%;margin-right:15%;'>
-				<section class="container" >
-					<header>
-						<h2>Contact Shayna</h2>
+						<div class="wrapper style2">
+				<section class="container" id='contact'>
+					<header class="major">
+						<h2>Contact</h2>
 					</header>
 					<div class="row">
 					
 						<!-- Content -->
-							<div>
-								<section id='contact'>
+							
+    <div class="6u">
+                <div>
 
-
-                <p style='text-align:center;font-size:1.5em;'>E-mail: <a style='color:#8c8cff;' href="mailto:shayna@shaynak112.com">shayna@shaynak112.com</a></p>
-
-                <div style='text-align:center;' class="buttons">
-                        <a href="https://www.linkedin.com/in/shayna-kingsbury-33189234/" class="button" target='_blank'>LinkedIn</a>
-                        <a href="https://github.com/shaynak112" class="button" target='_blank'>GitHub</a>
-                </div>
-
-                <br/>
-                <br/>
-                <br/>
-
-                <div class='col-twelve' align='center'>
-
-                    <form name="contactform" style='margin:0 auto;' method="post" action="">
+                    <form name="contactform" style='margin:0;' method="post" action="">
 
                 <div>
-                <label for="yourName" >Your name: </label>
-                  <input id="yourName" type="text" style='width:50%;' placeholder="Name" name="yourName"/>
+                <label for="yourName">Your name: </label>
+                  <input id="yourName" type="text" style='width:50%;margin-left:25%;' placeholder="Name" name="yourName"/>
                 </div>
 
                 <div>
                 <label for="email">Your e-mail address: </label>
-                  <input id="email" type="text" style='width:50%;' placeholder="Email" name="email"/>
+                  <input id="email" type="text" style='width:50%;margin-left:25%;' placeholder="Email" name="email"/>
                 </div>
 
                 <div>
                 <label for="phone">Your phone number: </label>
-                  <input id="phone" type="text" style='width:50%;' placeholder="Phone Number" name="phone"/>
+                  <input id="phone" type="text" style='width:50%;margin-left:25%;' placeholder="Phone Number" name="phone"/>
                 </div>
 
                 <div>
                 <label for="message">Your message: </label>
                 </div>
                 <div>
-                  <textarea cols='50%' id="message" placeholder="Message" name="message" style='width:60%;'> </textarea>
+                  <textarea cols='50%' id="message" placeholder="Message" name="message" style='width:50%;margin-left:25%;'> </textarea>
                 </div>
 
                 <br/>
@@ -402,6 +396,8 @@
                   <input type="submit" value="Submit" name="Submit" id="Submit">
 
                   </form>
+
+              </div>
 
                   <?php
 
@@ -435,10 +431,24 @@
 
 
 
-							</div>
+    <div class="6u">
+	
 
 
-					</div>
+                <p style='text-align:center;font-size:1.5em;'>E-mail: <a style='color:#8c8cff;' href="mailto:shayna@shaynak112.com">shayna@shaynak112.com</a></p>
+
+                <p>Located in Toronto, Ontario, Canada</p>
+
+                <div style='text-align:center;' class="buttons">
+                        <a href="https://www.linkedin.com/in/shayna-kingsbury-33189234/" class="button" target='_blank'>LinkedIn</a>
+                        <br/>
+                        <br/>
+                        <a href="https://github.com/shaynak112" class="button" target='_blank'>GitHub</a>
+                </div>
+</div>
+            </div>
+        </section>
+    </div>
 
 
 
@@ -446,19 +456,14 @@
 
 
 
-					
-				</section>
-			</div>
 
+		<!-- Footer 
 
-
-
-
-		<!-- Footer -->
+		<div class="wrapper style2">
 			<div id="footer">
-				<div class="container">
+				<div class="container">-->
 
-					<!-- Lists -->
+					<!-- Lists 
 						<div class="row">
 							<div class="8u">
 								<section>
@@ -508,15 +513,15 @@
 									</ul>	
 								</section>
 							</div>
-						</div>
+						</div>-->
 
-					<!-- Copyright -->
+					<!-- Copyright 
 						<div class="copyright">
 							Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
-						</div>
+						</div>-->
 
 				</div>
 			</div>
-
+</div>
 	</body>
 </html>
